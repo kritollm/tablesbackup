@@ -1,0 +1,7 @@
+{
+    "account": "",
+    "accountKey": "==",
+    "maxTablesSimultaneous": 10,
+    "maxEntitiesInFile": 2000,
+    "savePath": "safetyBackupTables/"
+}

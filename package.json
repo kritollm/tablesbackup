@@ -1,0 +1,16 @@
+{
+  "name": "tablesbackup",
+  "version": "1.0.0",
+  "description": "Backup azure tables",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Ktm",
+  "license": "MIT",
+  "dependencies": {
+    "azure-storage": "^2.1.0",
+    "co": "^4.6.0"
+  }
+}

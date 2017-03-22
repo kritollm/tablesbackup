@@ -16,4 +16,5 @@ Just store a creds.json file like this:
 ```
 and in the terminal type ```npm start``` or ```node app```.
 
-The next time it will only add changes. It will also catch changes stored in the same millisecond as the last entity.
+If there is some tables you don't want to back up you can easily hook on a ```.filter``` function after ```.getAllTables()```.
+The next time you run the script it will only add changes. It will also catch changes stored in the same millisecond as the last entity.
